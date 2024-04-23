@@ -1,0 +1,666 @@
+/* variables paleta de color */
+* {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: #f7f7f6;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.contenedor-general {
+  display: flex;
+  flex-direction: column;
+}
+
+.contenedor-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 120px 0px 0px 0px;
+}
+.contenedor-main h1 {
+  display: none;
+}
+.contenedor-main .text-derechos {
+  font-size: 14px;
+}
+
+footer {
+  display: flex;
+  justify-content: end;
+  padding: 0px 50px 0px 0px;
+}
+footer .logo-img-footer .logo-redes {
+  transition: 1s;
+}
+footer .logo-img-footer .logo-redes:hover {
+  transform: rotate(360deg);
+}
+
+.contenedor-biografia-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 130px 0px 0px 0px;
+}
+.contenedor-biografia-main .contenedor-biografia-section {
+  display: flex;
+}
+.contenedor-biografia-main .contenedor-biografia-section .contenedor-biografia-section-texto {
+  margin: 40px 150px;
+}
+.contenedor-biografia-main .contenedor-biografia-section .contenedor-biografia-section-texto .biografia-h2 {
+  font-size: 20px;
+}
+.contenedor-biografia-main .contenedor-biografia-section .contenedor-biografia-section-img {
+  margin: 0px 150px 0px 0px;
+}
+.contenedor-biografia-main .text-derechos-biografia {
+  font-size: 14px;
+}
+
+.contenedor-videos-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 120px 0px 0px 0px;
+}
+.contenedor-videos-main .video-h2 {
+  font-size: 30px;
+}
+.contenedor-videos-main .videos-grid-contairner {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1.5fr 1fr;
+  margin: 40px;
+  gap: 40px;
+}
+.contenedor-videos-main .videos-grid-contairner .video-p {
+  width: 90%;
+  height: 90%;
+  border-bottom: 2px solid #22232a;
+  font-size: 14px;
+  margin: 10px;
+}
+.contenedor-videos-main .text-derechos-videos {
+  font-size: 14px;
+}
+
+.contenedor-fotos-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 130px 0px 0px 0px;
+}
+.contenedor-fotos-main .text-derechos-fotos {
+  font-size: 14px;
+  padding: 5px;
+}
+
+.contenedor-contactos-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px 0px 0px 0px;
+}
+.contenedor-contactos-main .text-derechos-contactos {
+  font-size: 14px;
+  margin: 20px;
+}
+.contenedor-contactos-main .formulario {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 1rem;
+  width: 50vw;
+  box-shadow: 0px 0px 20px 0px rgba(190, 186, 180, 0.3);
+}
+.contenedor-contactos-main .formulario .cajas-formulario {
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+  margin: 15px;
+}
+.contenedor-contactos-main .formulario .boton-enviar-contactos {
+  display: flex;
+  justify-content: end;
+}
+.contenedor-contactos-main .formulario .boton-enviar-contactos .input-boton {
+  padding: 10px;
+  font-size: 20px;
+}
+.contenedor-contactos-main .h2-contactos {
+  margin: 20px;
+}
+
+@media only screen and (max-width: 375px) {
+  /* index */
+  /* nav */
+  .img-logo-nav {
+    height: 50px;
+  }
+  .menu-hamburgesa {
+    width: 20px;
+  }
+  /*footer */
+  footer {
+    padding: 0px 20px 0px 0px;
+  }
+  footer .logo-redes {
+    width: 20px;
+    margin: 5px;
+  }
+  /* main */
+  .contenedor-main {
+    padding: 70px 0px 0px 0px;
+  }
+  .contenedor-main .contenedor-img-main-index .img-main-index {
+    width: 280px;
+  }
+  .contenedor-main .text-derechos {
+    font-size: 8px;
+  }
+  /* biografia */
+  .contenedor-biografia-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0px 0px 0px;
+  }
+  .contenedor-biografia-main .contenedor-biografia-section {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .contenedor-biografia-main .contenedor-biografia-section .contenedor-biografia-section-texto {
+    margin: 40px 10px 20px 10px;
+    font-size: 12px;
+  }
+  .contenedor-biografia-main .contenedor-biografia-section .contenedor-biografia-section-img {
+    margin: 0px 0px 0px 0px;
+  }
+  .contenedor-biografia-main .contenedor-biografia-section .contenedor-biografia-section-img .biografia-img {
+    display: none;
+  }
+  /* videos */
+  .contenedor-videos-main {
+    padding: 80px 0px 0px 0px;
+  }
+  .contenedor-videos-main .text-derechos-videos {
+    font-size: 6px;
+  }
+  .contenedor-videos-main .videos-grid-contairner {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .contenedor-videos-main .videos-grid-contairner .video-p {
+    font-size: 12px;
+    margin: 10px;
+  }
+  /* fotos */
+  .contenedor-fotos-main {
+    padding: 80px 0px 0px 0px;
+  }
+  .contenedor-fotos-main .text-derechos-fotos {
+    font-size: 8px;
+  }
+  /* contactos */
+  .contenedor-contactos-main {
+    padding: 80px 0px 0px 0px;
+  }
+  .contenedor-contactos-main .text-derechos-contactos {
+    font-size: 8px;
+    margin: 10px;
+  }
+  .contenedor-contactos-main .formulario {
+    box-shadow: 0px 0px 20px 0px rgba(255, 255, 255, 0.3);
+    font-size: 12px;
+    width: 87vw;
+  }
+  .contenedor-contactos-main .formulario .boton-enviar-contactos {
+    display: flex;
+    justify-content: end;
+    margin: 10px;
+  }
+  .contenedor-contactos-main .formulario .boton-enviar-contactos .input-boton {
+    padding: 7px;
+    font-size: 10px;
+  }
+  .contenedor-contactos-main .formulario .cajas-formulario {
+    width: 70vw;
+  }
+  .contenedor-contactos-main .h2-contactos {
+    margin: 10px;
+  }
+}
+@media only screen and (min-width: 376px) and (max-width: 500px) {
+  /* index */
+  /* nav */
+  .img-logo-nav {
+    height: 50px;
+  }
+  .menu-hamburgesa {
+    width: 20px;
+  }
+  /* main */
+  .contenedor-main {
+    padding: 70px 0px 0px 0px;
+  }
+  .contenedor-main .contenedor-img-main-index .img-main-index {
+    width: 380px;
+  }
+  .contenedor-main .text-derechos {
+    font-size: 6px;
+  }
+  /*footer */
+  footer {
+    padding: 0px 20px 0px 0px;
+  }
+  footer .logo-redes {
+    width: 20px;
+    margin: 5px;
+  }
+  /* biografia */
+  .contenedor-biografia-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0px 0px 0px;
+  }
+  .contenedor-biografia-main .contenedor-biografia-section {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .contenedor-biografia-main .contenedor-biografia-section .contenedor-biografia-section-texto {
+    margin: 40px 10px 20px 10px;
+    font-size: 12px;
+  }
+  .contenedor-biografia-main .contenedor-biografia-section .contenedor-biografia-section-img {
+    margin: 0px 0px 0px 0px;
+  }
+  .contenedor-biografia-main .contenedor-biografia-section .contenedor-biografia-section-img .biografia-img {
+    display: none;
+  }
+  /* videos */
+  .contenedor-videos-main {
+    padding: 80px 0px 0px 0px;
+  }
+  .contenedor-videos-main .text-derechos-videos {
+    font-size: 6px;
+  }
+  .contenedor-videos-main .videos-grid-contairner {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .contenedor-videos-main .videos-grid-contairner .video-p {
+    font-size: 12px;
+    margin: 10px;
+  }
+  /* fotos */
+  .contenedor-fotos-main {
+    padding: 80px 0px 0px 0px;
+  }
+  .contenedor-fotos-main .text-derechos-fotos {
+    font-size: 8px;
+  }
+  /* contactos */
+  .contenedor-contactos-main {
+    padding: 80px 0px 0px 0px;
+  }
+  .contenedor-contactos-main .text-derechos-contactos {
+    font-size: 8px;
+    margin: 10px;
+  }
+  .contenedor-contactos-main .formulario {
+    box-shadow: 0px 0px 20px 0px rgba(255, 255, 255, 0.3);
+    font-size: 12px;
+    width: 80vw;
+  }
+  .contenedor-contactos-main .formulario .h2-contactos {
+    margin: 10px;
+  }
+  .contenedor-contactos-main .formulario .boton-enviar-contactos {
+    display: flex;
+    justify-content: end;
+    margin: 10px;
+  }
+  .contenedor-contactos-main .formulario .boton-enviar-contactos .input-boton {
+    padding: 7px;
+    font-size: 10px;
+  }
+  .contenedor-contactos-main .formulario .cajas-formulario {
+    width: 67vw;
+  }
+}
+@media only screen and (min-width: 501px) and (max-width: 767px) {
+  /* index */
+  /* nav */
+  .img-logo-nav {
+    height: 50px;
+  }
+  .menu-hamburgesa {
+    width: 20px;
+  }
+  /* main */
+  .contenedor-main {
+    padding: 70px 0px 0px 0px;
+  }
+  .contenedor-main .contenedor-img-main-index .img-main-index {
+    width: 480px;
+  }
+  .contenedor-main .text-derechos {
+    font-size: 10px;
+  }
+  /*footer */
+  footer {
+    padding: 0px 20px 0px 0px;
+  }
+  footer .logo-redes {
+    width: 30px;
+    margin: 5px;
+  }
+  /* biografia */
+  .contenedor-biografia-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0px 0px 0px;
+  }
+  .contenedor-biografia-main .contenedor-biografia-section {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .contenedor-biografia-main .contenedor-biografia-section .contenedor-biografia-section-texto {
+    margin: 40px 10px 20px 10px;
+    font-size: 12px;
+  }
+  .contenedor-biografia-main .contenedor-biografia-section .contenedor-biografia-section-img {
+    margin: 0px 0px 0px 0px;
+  }
+  .contenedor-biografia-main .contenedor-biografia-section .contenedor-biografia-section-img .biografia-img {
+    display: none;
+  }
+  /* videos */
+  .contenedor-videos-main {
+    padding: 80px 0px 0px 0px;
+  }
+  .contenedor-videos-main .text-derechos-videos {
+    font-size: 8px;
+  }
+  .contenedor-videos-main .videos-grid-contairner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .contenedor-videos-main .videos-grid-contairner .video-p {
+    font-size: 14px;
+    margin: 10px;
+  }
+  /* fotos */
+  .contenedor-fotos-main {
+    padding: 80px 0px 0px 0px;
+  }
+  .contenedor-fotos-main .text-derechos-fotos {
+    font-size: 10px;
+  }
+  /* contactos */
+  .contenedor-contactos-main {
+    padding: 80px 0px 0px 0px;
+  }
+  .contenedor-contactos-main .text-derechos-contactos {
+    font-size: 8px;
+    margin: 10px;
+  }
+  .contenedor-contactos-main .formulario {
+    box-shadow: 0px 0px 20px 0px rgba(255, 255, 255, 0.3);
+    font-size: 14px;
+  }
+  .contenedor-contactos-main .formulario .h2-contactos {
+    margin: 15px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 900px) {
+  /* index */
+  /* nav */
+  .img-logo-nav {
+    height: 50px;
+  }
+  .menu-hamburgesa {
+    width: 20px;
+  }
+  /* main */
+  .contenedor-main {
+    padding: 70px 0px 0px 0px;
+  }
+  .contenedor-main .contenedor-img-main-index .img-main-index {
+    width: 540px;
+  }
+  .contenedor-main .text-derechos {
+    font-size: 10px;
+  }
+  /*footer */
+  footer {
+    padding: 0px 20px 0px 0px;
+  }
+  footer .logo-redes {
+    width: 30px;
+    margin: 5px;
+  }
+  /* biografia */
+  .contenedor-biografia-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0px 0px 0px;
+  }
+  .contenedor-biografia-main .contenedor-biografia-section {
+    display: flex;
+  }
+  .contenedor-biografia-main .contenedor-biografia-section .contenedor-biografia-section-texto {
+    margin: 40px 10px 20px 10px;
+    font-size: 12px;
+  }
+  .contenedor-biografia-main .contenedor-biografia-section .contenedor-biografia-section-img {
+    margin: 0px 0px 0px 0px;
+  }
+  .contenedor-biografia-main .contenedor-biografia-section .contenedor-biografia-section-img .biografia-img {
+    width: 370px;
+  }
+  /* videos */
+  .contenedor-videos-main {
+    padding: 80px 0px 0px 0px;
+  }
+  .contenedor-videos-main .text-derechos-videos {
+    font-size: 8px;
+  }
+  .contenedor-videos-main .videos-grid-contairner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .contenedor-videos-main .videos-grid-contairner .video-p {
+    font-size: 14px;
+    margin: 10px;
+  }
+  /* fotos */
+  .contenedor-fotos-main {
+    padding: 80px 0px 0px 0px;
+  }
+  .contenedor-fotos-main .text-derechos-fotos {
+    font-size: 10px;
+  }
+  /* contactos */
+  .contenedor-contactos-main {
+    padding: 80px 0px 0px 0px;
+  }
+  .contenedor-contactos-main .text-derechos-contactos {
+    font-size: 8px;
+    margin: 10px;
+  }
+  .contenedor-contactos-main .formulario {
+    box-shadow: 0px 0px 20px 0px rgba(255, 255, 255, 0.3);
+    font-size: 14px;
+  }
+}
+@media only screen and (min-width: 901px) and (max-width: 990px) {
+  /* index */
+  /* nav */
+  .img-logo-nav {
+    height: 50px;
+  }
+  .menu-hamburgesa {
+    width: 20px;
+  }
+  /* main */
+  .contenedor-main {
+    padding: 70px 0px 0px 0px;
+  }
+  .contenedor-main .contenedor-img-main-index .img-main-index {
+    width: 540px;
+  }
+  .contenedor-main .text-derechos {
+    font-size: 10px;
+  }
+  /*footer */
+  footer {
+    padding: 0px 20px 0px 0px;
+  }
+  footer .logo-redes {
+    width: 30px;
+    margin: 5px;
+  }
+  /* biografia */
+  .contenedor-biografia-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0px 0px 0px;
+  }
+  .contenedor-biografia-main .contenedor-biografia-section {
+    display: flex;
+  }
+  .contenedor-biografia-main .contenedor-biografia-section .contenedor-biografia-section-texto {
+    margin: 40px 10px 0px 10px;
+    font-size: 13px;
+  }
+  .contenedor-biografia-main .contenedor-biografia-section .contenedor-biografia-section-img {
+    margin: 0px 0px 0px 0px;
+  }
+  .contenedor-biografia-main .contenedor-biografia-section .contenedor-biografia-section-img .biografia-img {
+    width: 400px;
+  }
+  /* videos */
+  .contenedor-videos-main {
+    padding: 80px 0px 0px 0px;
+  }
+  .contenedor-videos-main .text-derechos-videos {
+    font-size: 8px;
+  }
+  .contenedor-videos-main .videos-grid-contairner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .contenedor-videos-main .videos-grid-contairner .video-p {
+    font-size: 16px;
+    margin: 10px;
+  }
+  /* fotos */
+  .contenedor-fotos-main {
+    padding: 80px 0px 0px 0px;
+  }
+  .contenedor-fotos-main .text-derechos-fotos {
+    font-size: 10px;
+  }
+  /* contactos */
+  .contenedor-contactos-main {
+    padding: 80px 0px 0px 0px;
+  }
+  .contenedor-contactos-main .text-derechos-contactos {
+    font-size: 10px;
+    margin: 15px;
+  }
+  .contenedor-contactos-main .formulario {
+    box-shadow: 0px 0px 20px 0px rgba(255, 255, 255, 0.3);
+    font-size: 14px;
+  }
+}
+@media only screen and (min-width: 991px) and (max-width: 1300px) {
+  /* nav */
+  .menu-hamburgesa {
+    width: 20px;
+  }
+  /* main */
+  .contenedor-main {
+    padding: 130px 0px 0px 0px;
+  }
+  .contenedor-main .contenedor-img-main-index .img-main-index {
+    width: 540px;
+  }
+  .contenedor-main .text-derechos {
+    font-size: 10px;
+  }
+  /*footer */
+  footer {
+    padding: 0px 20px 0px 0px;
+  }
+  footer .logo-redes {
+    width: 30px;
+    margin: 5px;
+  }
+  /* biografia */
+  .contenedor-biografia-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 0px 0px 0px;
+  }
+  .contenedor-biografia-main .contenedor-biografia-section {
+    display: flex;
+  }
+  .contenedor-biografia-main .contenedor-biografia-section .contenedor-biografia-section-texto {
+    margin: 40px 10px 0px 10px;
+    font-size: 14px;
+  }
+  .contenedor-biografia-main .contenedor-biografia-section .contenedor-biografia-section-img {
+    margin: 0px 0px 0px 0px;
+  }
+  .contenedor-biografia-main .contenedor-biografia-section .contenedor-biografia-section-img .biografia-img {
+    width: 410px;
+  }
+  .contenedor-biografia-main .contenedor-biografia-section .text-derechos-biografia {
+    font-size: 10px;
+  }
+  /* videos */
+  .contenedor-videos-main {
+    padding: 130px 0px 0px 0px;
+  }
+  .contenedor-videos-main .text-derechos-videos {
+    font-size: 8px;
+  }
+  .contenedor-videos-main .videos-grid-contairner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .contenedor-videos-main .videos-grid-contairner .video-p {
+    font-size: 14px;
+    margin: 10px;
+  }
+  /* fotos */
+  .contenedor-fotos-main {
+    padding: 80px 0px 0px 0px;
+  }
+  .contenedor-fotos-main .text-derechos-fotos {
+    font-size: 10px;
+  }
+  /* contactos */
+  .contenedor-contactos-main {
+    padding: 130px 0px 0px 0px;
+  }
+  .contenedor-contactos-main .text-derechos-contactos {
+    font-size: 10px;
+    margin: 12px;
+  }
+  .contenedor-contactos-main .formulario {
+    box-shadow: 0px 0px 20px 0px rgba(255, 255, 255, 0.3);
+    font-size: 14px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

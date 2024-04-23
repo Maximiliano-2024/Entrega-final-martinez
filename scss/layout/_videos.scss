@@ -1,0 +1,41 @@
+@mixin caja-texto-video{
+        
+    width: 90%;
+    height: 90%;
+    border-bottom:  2px solid $paleta-color-2 ;
+
+}
+
+.contenedor-videos-main{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 120px 0px 0px 0px;
+
+    .video-h2{
+        font-size: 30px;
+    }
+
+    .videos-grid-contairner {
+
+        display: grid;
+        grid-template-columns: 1.5fr 1fr 1.5fr 1fr;
+        margin: 40px;
+        gap: 40px;
+
+        .video-p{
+
+            @include caja-texto-video();
+            font-size: 14px;
+            margin: 10px;
+        }
+       
+    }
+
+    .text-derechos-videos{
+
+        font-size: 14px;
+        
+    }
+}

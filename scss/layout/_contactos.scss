@@ -1,0 +1,54 @@
+.contenedor-contactos-main{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 0px 0px 0px;
+
+    .text-derechos-contactos{
+
+        font-size: 14px;
+        margin: 20px;
+
+    }
+
+    .formulario {
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        padding: 1rem;
+        width: 50vw;
+
+        .cajas-formulario{
+            width: 40vw;
+            display: flex;
+            flex-direction: column;
+            margin: 15px;
+        }
+
+        .boton-enviar-contactos{    
+       
+            display: flex;
+            justify-content: end;
+        
+            .input-boton{
+
+            padding: 10px;
+            font-size: 20px;
+
+            }
+        
+        }
+
+        box-shadow: 0px 0px 20px 0px rgba( $paleta-color-4, .3);
+    }
+
+    .h2-contactos{
+
+        margin: 20px;
+    
+    }
+   
+}

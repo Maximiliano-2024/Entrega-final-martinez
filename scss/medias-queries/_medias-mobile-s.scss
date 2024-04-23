@@ -1,0 +1,170 @@
+@media only screen  and (max-width: 375px) {
+
+
+    /* index */
+
+    /* nav */
+
+    .img-logo-nav{
+        height: 50px;
+    }
+
+    .menu-hamburgesa{
+        width: 20px;
+    }
+
+     /*footer */
+
+     footer{
+            
+        padding: 0px 20px 0px 0px;
+
+        .logo-redes{
+            width: 20px;
+            margin: 5px;
+        
+        }
+    } 
+
+    /* main */
+    
+    .contenedor-main{
+
+        padding: 70px 0px 0px 0px;
+
+        .contenedor-img-main-index{
+            
+            .img-main-index{
+
+                width: 280px;
+
+            }
+        }
+
+        .text-derechos{
+            font-size: 8px;
+        
+        }
+
+
+    }
+
+   
+
+    /* biografia */
+
+    .contenedor-biografia-main{
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 40px 0px 0px 0px;
+    
+        .contenedor-biografia-section{
+    
+            display: flex;
+            flex-direction: column-reverse;
+           
+    
+            .contenedor-biografia-section-texto{
+    
+                margin: 40px 10px 20px 10px;
+                font-size: 12px;
+            }
+    
+            .contenedor-biografia-section-img {
+                margin: 0px 0px 0px 0px;
+                .biografia-img{
+                   display:none;
+
+                }
+                
+            
+            }
+    
+        }
+        
+    }
+
+    /* videos */ 
+
+    .contenedor-videos-main{
+
+        padding: 80px 0px 0px 0px;
+
+        .text-derechos-videos{
+            font-size: 6px;
+        }
+    
+        .videos-grid-contairner {
+    
+            display: grid;
+            grid-template-columns:  1fr;
+
+            .video-p{
+                font-size: 12px;
+                margin: 10px;
+            }
+  
+        }
+    }
+
+    /* fotos */
+
+    .contenedor-fotos-main{
+
+        padding: 80px 0px 0px 0px;
+
+        .text-derechos-fotos{
+            font-size: 8px;
+        }
+    
+    
+       
+    }
+
+    /* contactos */
+
+    .contenedor-contactos-main{
+
+        padding: 80px 0px 0px 0px;
+
+        .text-derechos-contactos{
+            font-size: 8px;
+            margin: 10px;
+        }
+
+        .formulario{
+
+            box-shadow: 0px 0px 20px 0px rgba( 255,255,255, .3);
+            font-size: 12px;
+            width: 87vw;
+
+            .boton-enviar-contactos{    
+       
+                display: flex;
+               justify-content: end;
+               margin: 10px;
+              .input-boton{
+                padding: 7px;
+                font-size: 10px;
+              }
+            }
+
+            .cajas-formulario{
+                width: 70vw;
+            }
+           
+           
+
+        }
+    
+        .h2-contactos{
+            margin: 10px;
+        }
+
+        
+    
+       
+    }
+}

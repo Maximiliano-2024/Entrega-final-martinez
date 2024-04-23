@@ -1,0 +1,143 @@
+@media only screen and (min-width: 991px) and (max-width: 1300px) {
+
+/* nav */
+
+    .menu-hamburgesa{
+        width: 20px;
+    }
+
+/* main */
+    
+    .contenedor-main{
+
+        padding: 130px 0px 0px 0px;
+
+        .contenedor-img-main-index{
+            
+            .img-main-index{
+
+                width: 540px;
+
+            }
+        }
+
+        .text-derechos{
+
+            font-size: 10px;
+        
+        }
+
+
+    }
+
+/*footer */
+
+    footer{
+            
+        padding: 0px 20px 0px 0px;
+
+        .logo-redes{
+            width: 30px;
+            margin: 5px;
+        
+        }
+    } 
+
+/* biografia */
+
+    .contenedor-biografia-main{
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 80px 0px 0px 0px;
+    
+        .contenedor-biografia-section{
+    
+            display: flex;
+            
+        .contenedor-biografia-section-texto{
+    
+            margin: 40px 10px 0px 10px;
+            font-size: 14px;
+            
+        }
+    
+        .contenedor-biografia-section-img {
+
+            margin: 0px 0px 0px 0px;
+                
+            .biografia-img{
+
+                width: 410px;
+                  
+            }
+                            
+        }
+
+        .text-derechos-biografia{
+           font-size: 10px;
+        }
+    
+    }
+        
+}
+
+/* videos */
+
+    .contenedor-videos-main{
+
+        padding: 130px 0px 0px 0px;
+
+        .text-derechos-videos{
+            font-size: 8px;
+        }
+    
+        .videos-grid-contairner {
+    
+            display: grid;
+            grid-template-columns:  1fr 1fr;
+
+            .video-p{
+                font-size: 14px;
+                margin: 10px;
+            }
+  
+        }
+    }
+
+/* fotos */
+
+     .contenedor-fotos-main{
+
+        padding: 80px 0px 0px 0px;
+
+        .text-derechos-fotos{
+            font-size: 10px;
+        }
+         
+    }
+
+/* contactos */
+
+.contenedor-contactos-main{
+
+    padding: 130px 0px 0px 0px;
+
+    .text-derechos-contactos{
+
+        font-size: 10px;
+        margin: 12px;
+    }
+
+    .formulario{
+
+        box-shadow: 0px 0px 20px 0px rgba( 255,255,255, .3);
+        font-size: 14px;
+       
+    }
+   
+}
+
+
+}
