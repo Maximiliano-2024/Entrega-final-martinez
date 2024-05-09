@@ -12,16 +12,23 @@
 
         .contenedor-biografia-section-texto{
 
-            margin: 40px 150px;
+            margin: 30px 150px;
 
             .biografia-h2{
-                font-size: 20px;
+                font-size: 50px;
+                text-align: left;
+                margin-bottom: 30px;
                 
+            }
+
+            .biografia-p{
+                font-size: 14px;
+                text-align: justify;
             }
         }
 
         .contenedor-biografia-section-img {
-            margin: 0px 150px 0px 0px;
+            margin: 0px 10px 0px 0px;
         
         }
 
@@ -29,7 +36,6 @@
 
     .text-derechos-biografia{
         font-size: 14px;
-        
     }
     
 }

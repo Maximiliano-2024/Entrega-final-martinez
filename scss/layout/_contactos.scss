@@ -39,6 +39,12 @@
             font-size: 20px;
 
             }
+            
+            .input-boton:hover{
+                background-color: $paleta-color-2;
+                border-color:  $paleta-color-4 ;
+                box-shadow: 0 0 20 $paleta-color-3 ;
+            }
         
         }
 

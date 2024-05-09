@@ -47,13 +47,19 @@ footer .logo-img-footer .logo-redes:hover {
   display: flex;
 }
 .contenedor-biografia-main .contenedor-biografia-section .contenedor-biografia-section-texto {
-  margin: 40px 150px;
+  margin: 30px 150px;
 }
 .contenedor-biografia-main .contenedor-biografia-section .contenedor-biografia-section-texto .biografia-h2 {
-  font-size: 20px;
+  font-size: 50px;
+  text-align: left;
+  margin-bottom: 30px;
+}
+.contenedor-biografia-main .contenedor-biografia-section .contenedor-biografia-section-texto .biografia-p {
+  font-size: 14px;
+  text-align: justify;
 }
 .contenedor-biografia-main .contenedor-biografia-section .contenedor-biografia-section-img {
-  margin: 0px 150px 0px 0px;
+  margin: 0px 10px 0px 0px;
 }
 .contenedor-biografia-main .text-derechos-biografia {
   font-size: 14px;
@@ -71,7 +77,7 @@ footer .logo-img-footer .logo-redes:hover {
 .contenedor-videos-main .videos-grid-contairner {
   display: grid;
   grid-template-columns: 1.5fr 1fr 1.5fr 1fr;
-  margin: 40px;
+  margin: 30px;
   gap: 40px;
 }
 .contenedor-videos-main .videos-grid-contairner .video-p {
@@ -128,6 +134,11 @@ footer .logo-img-footer .logo-redes:hover {
 .contenedor-contactos-main .formulario .boton-enviar-contactos .input-boton {
   padding: 10px;
   font-size: 20px;
+}
+.contenedor-contactos-main .formulario .boton-enviar-contactos .input-boton:hover {
+  background-color: #22232a;
+  border-color: #bebab4;
+  box-shadow: 0 0 20 #46413b;
 }
 .contenedor-contactos-main .h2-contactos {
   margin: 20px;
